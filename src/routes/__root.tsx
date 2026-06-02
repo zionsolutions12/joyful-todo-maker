@@ -77,14 +77,18 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Lovable App" },
-      { name: "description", content: "Lovable Generated Project" },
+      { title: "Tarefas" },
+      { name: "description", content: "Site gerado na Aula 4" },
       { name: "author", content: "Lovable" },
-      { property: "og:title", content: "Lovable App" },
-      { property: "og:description", content: "Lovable Generated Project" },
+      { property: "og:title", content: "Tarefas" },
+      { property: "og:description", content: "Site gerado na Aula 4" },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary" },
       { name: "twitter:site", content: "@Lovable" },
+      { name: "twitter:title", content: "Tarefas" },
+      { name: "twitter:description", content: "Site gerado na Aula 4" },
+      { property: "og:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e0b882a0-302c-44c9-a567-adc657340364/id-preview-9044d4f6--779587e4-f0eb-424f-bc13-15a66ee6d627.lovable.app-1780403445294.png" },
+      { name: "twitter:image", content: "https://pub-bb2e103a32db4e198524a2e9ed8f35b4.r2.dev/e0b882a0-302c-44c9-a567-adc657340364/id-preview-9044d4f6--779587e4-f0eb-424f-bc13-15a66ee6d627.lovable.app-1780403445294.png" },
     ],
     links: [
       {
