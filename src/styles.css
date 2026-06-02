@@ -63,27 +63,27 @@
 
 :root {
   --radius: 0.875rem;
-  --background: oklch(0.985 0.005 280);
-  --foreground: oklch(0.18 0.04 280);
+  --background: oklch(0.985 0.005 250);
+  --foreground: oklch(0.18 0.04 250);
   --card: oklch(1 0 0);
-  --card-foreground: oklch(0.18 0.04 280);
+  --card-foreground: oklch(0.18 0.04 250);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.18 0.04 280);
-  --primary: oklch(0.58 0.22 295);
+  --popover-foreground: oklch(0.18 0.04 250);
+  --primary: oklch(0.45 0.18 250);
   --primary-foreground: oklch(0.99 0 0);
-  --primary-glow: oklch(0.72 0.18 330);
-  --secondary: oklch(0.96 0.02 290);
-  --secondary-foreground: oklch(0.25 0.05 280);
-  --muted: oklch(0.96 0.015 280);
-  --muted-foreground: oklch(0.5 0.03 280);
-  --accent: oklch(0.72 0.18 330);
+  --primary-glow: oklch(0.6 0.14 250);
+  --secondary: oklch(0.96 0.02 250);
+  --secondary-foreground: oklch(0.25 0.05 250);
+  --muted: oklch(0.96 0.015 250);
+  --muted-foreground: oklch(0.5 0.03 250);
+  --accent: oklch(0.6 0.14 250);
   --accent-foreground: oklch(0.99 0 0);
   --destructive: oklch(0.62 0.24 25);
   --destructive-foreground: oklch(0.99 0 0);
   --success: oklch(0.7 0.18 155);
-  --border: oklch(0.92 0.015 280);
-  --input: oklch(0.92 0.015 280);
-  --ring: oklch(0.58 0.22 295);
+  --border: oklch(0.92 0.015 250);
+  --input: oklch(0.92 0.015 250);
+  --ring: oklch(0.45 0.18 250);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -99,9 +99,9 @@
   --sidebar-ring: oklch(0.704 0.04 256.788);
 
   --gradient-primary: linear-gradient(135deg, var(--primary), var(--primary-glow));
-  --gradient-bg: radial-gradient(ellipse at top left, oklch(0.85 0.12 295 / 0.4), transparent 55%), radial-gradient(ellipse at bottom right, oklch(0.85 0.14 330 / 0.35), transparent 55%);
-  --shadow-elegant: 0 20px 50px -20px oklch(0.58 0.22 295 / 0.35);
-  --shadow-soft: 0 4px 20px -4px oklch(0.3 0.05 280 / 0.1);
+  --gradient-bg: radial-gradient(ellipse at top left, oklch(0.8 0.1 250 / 0.4), transparent 55%), radial-gradient(ellipse at bottom right, oklch(0.8 0.12 250 / 0.35), transparent 55%);
+  --shadow-elegant: 0 20px 50px -20px oklch(0.45 0.18 250 / 0.35);
+  --shadow-soft: 0 4px 20px -4px oklch(0.3 0.05 250 / 0.1);
 }
 
 .dark {
